@@ -1,0 +1,72 @@
+{
+  "principalInvestigator": {
+    "name": "Professor XXX",
+    "title": "Principal Investigator",
+    "photoLabel": "PI Photo Placeholder",
+    "biography": "Professor XXX leads the Tsinghua Clinical Psychology Lab. Their research focuses on clinical psychology, mental health, and evidence-based psychological interventions.",
+    "researchInterests": [
+      "Clinical psychology",
+      "Mental health",
+      "Evidence-based interventions",
+      "Psychological assessment"
+    ],
+    "email": "professor.xxx@example.edu",
+    "cvUrl": "#"
+  },
+  "graduateCandidates": [
+    {
+      "name": "Graduate Student A",
+      "position": "PhD Candidate",
+      "photoLabel": "Graduate Student Photo Placeholder",
+      "bio": "Graduate Student A studies clinical assessment, symptom trajectories, and intervention outcomes."
+    },
+    {
+      "name": "Graduate Student B",
+      "position": "PhD Student",
+      "photoLabel": "Graduate Student Photo Placeholder",
+      "bio": "Graduate Student B focuses on digital mental health tools and scalable psychological interventions."
+    },
+    {
+      "name": "Graduate Student C",
+      "position": "Master's Student",
+      "photoLabel": "Graduate Student Photo Placeholder",
+      "bio": "Graduate Student C investigates cognitive and emotional processes related to mental health."
+    },
+    {
+      "name": "Graduate Student D",
+      "position": "Master's Student",
+      "photoLabel": "Graduate Student Photo Placeholder",
+      "bio": "Graduate Student D is interested in psychotherapy process research and public mental health."
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Alumnus A",
+      "graduationYear": "2025",
+      "currentAffiliation": "University Research Center",
+      "photoLabel": "Alumni Photo Placeholder",
+      "description": "Alumnus A continues research on assessment and intervention in clinical psychology."
+    },
+    {
+      "name": "Alumnus B",
+      "graduationYear": "2024",
+      "currentAffiliation": "Mental Health Institute",
+      "photoLabel": "Alumni Photo Placeholder",
+      "description": "Alumnus B works on community mental health and evidence-based service delivery."
+    },
+    {
+      "name": "Alumnus C",
+      "graduationYear": "2023",
+      "currentAffiliation": "Hospital Psychology Department",
+      "photoLabel": "Alumni Photo Placeholder",
+      "description": "Alumnus C contributes to clinical practice and research in psychological assessment."
+    },
+    {
+      "name": "Alumnus D",
+      "graduationYear": "2022",
+      "currentAffiliation": "Public Health Organization",
+      "photoLabel": "Alumni Photo Placeholder",
+      "description": "Alumnus D focuses on mental health education and prevention programs."
+    }
+  ]
+}

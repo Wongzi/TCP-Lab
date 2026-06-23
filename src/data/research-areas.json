@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Clinical Psychology",
+    "description": "Research on psychological difficulties, clinical assessment, diagnosis, and intervention in diverse populations."
+  },
+  {
+    "title": "Mental Health",
+    "description": "Studies on mental health risk, resilience, prevention, and wellbeing across developmental and social contexts."
+  },
+  {
+    "title": "Psychological Assessment",
+    "description": "Development and validation of reliable assessment tools for symptoms, functioning, and treatment outcomes."
+  },
+  {
+    "title": "Psychotherapy",
+    "description": "Evidence-based intervention research focused on mechanisms, process, effectiveness, and clinical implementation."
+  },
+  {
+    "title": "Digital Mental Health",
+    "description": "Use of digital tools, online programs, and data-informed methods to expand access to psychological support."
+  },
+  {
+    "title": "Cognitive and Emotional Processes",
+    "description": "Investigation of cognitive, affective, and interpersonal processes relevant to mental health and treatment."
+  }
+]

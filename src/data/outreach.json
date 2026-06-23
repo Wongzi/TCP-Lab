@@ -1,0 +1,45 @@
+{
+  "wechat": {
+    "accountName": "TCP Lab WeChat Official Account",
+    "description": "Follow our WeChat Official Account for updates on mental health science, psychology education, and laboratory news.",
+    "qrLabel": "WeChat QR Code Placeholder"
+  },
+  "articles": [
+    {
+      "title": "Understanding stress in daily life",
+      "summary": "A public-facing introduction to stress, coping, and when to seek psychological support.",
+      "date": "2026-05-20",
+      "coverLabel": "Article Cover Placeholder"
+    },
+    {
+      "title": "What is evidence-based psychotherapy?",
+      "summary": "An accessible overview of how psychological interventions are evaluated and improved.",
+      "date": "2026-04-28",
+      "coverLabel": "Article Cover Placeholder"
+    },
+    {
+      "title": "Mental health literacy for students",
+      "summary": "Practical guidance on recognizing common mental health concerns and finding resources.",
+      "date": "2026-03-16",
+      "coverLabel": "Article Cover Placeholder"
+    },
+    {
+      "title": "How psychological assessment works",
+      "summary": "A brief explanation of interviews, scales, observation, and responsible interpretation.",
+      "date": "2026-02-10",
+      "coverLabel": "Article Cover Placeholder"
+    },
+    {
+      "title": "Sleep, mood, and cognition",
+      "summary": "A science communication article on the relationship between sleep habits and mental health.",
+      "date": "2026-01-22",
+      "coverLabel": "Article Cover Placeholder"
+    },
+    {
+      "title": "Supporting friends in distress",
+      "summary": "Evidence-informed suggestions for listening, responding, and encouraging professional help.",
+      "date": "2025-12-05",
+      "coverLabel": "Article Cover Placeholder"
+    }
+  ]
+}
