@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     template: "%s | TCP Lab",
   },
   description:
-    "Tsinghua Clinical Psychology Lab is affiliated with the Department of Psychology at Tsinghua University and advances research in clinical psychology and mental health science.",
+    "Tsinghua Clinical Psychology Lab is affiliated with the Department of Psychological and Cognitive Sciences at Tsinghua University and advances research in clinical psychology and mental health science.",
   keywords: [
     "Tsinghua Clinical Psychology Lab",
     "TCP Lab",
     "clinical psychology",
     "mental health",
     "Tsinghua University",
-    "Department of Psychology",
+    "Department of Psychological and Cognitive Sciences",
   ],
   metadataBase: new URL("https://example.github.io"),
 };

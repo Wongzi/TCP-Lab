@@ -1,11 +1,9 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { ButtonLink } from "@/components/ButtonLink";
 import { Container } from "@/components/Container";
 import { InfoCard } from "@/components/InfoCard";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { SectionHeader } from "@/components/SectionHeader";
-import news from "@/data/news.json";
 import researchAreas from "@/data/research-areas.json";
 
 export const metadata: Metadata = {
@@ -21,7 +19,7 @@ export default function Home() {
         <Container className="grid min-h-[calc(100dvh-4rem)] items-center gap-10 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:py-20">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#4A6FA5]">
-              Department of Psychology, Tsinghua University
+              Department of Psychological and Cognitive Sciences, Tsinghua University
             </p>
             <h1 className="mt-5 max-w-4xl text-4xl font-semibold tracking-tight text-[#1F2937] sm:text-5xl lg:text-6xl">
               Tsinghua Clinical Psychology Lab
@@ -30,8 +28,9 @@ export default function Home() {
               Advancing Clinical Psychology Research and Mental Health Science
             </p>
             <p className="mt-5 max-w-2xl text-base leading-8 text-[#5F6F82]">
-              TCP Lab is affiliated with the Department of Psychology at Tsinghua
-              University and is dedicated to advancing clinical psychology research.
+              TCP Lab is affiliated with the Department of Psychological and Cognitive
+              Sciences at Tsinghua University and is dedicated to advancing clinical
+              psychology research.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <ButtonLink href="/team/">Meet the Team</ButtonLink>
@@ -65,7 +64,7 @@ export default function Home() {
           <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
             <SectionHeader
               title="About Us"
-              description="TCP Lab is affiliated with the Department of Psychology at Tsinghua University."
+              description="TCP Lab is affiliated with the Department of Psychological and Cognitive Sciences at Tsinghua University."
               className="mb-0"
             />
             <div className="rounded-lg border border-[#D8E4F0] bg-white p-6 text-base leading-8 text-[#5F6F82] shadow-sm shadow-[#4A6FA5]/5">
@@ -85,47 +84,20 @@ export default function Home() {
         <Container>
           <SectionHeader
             title="Research Areas"
-            description="Our research spans assessment, intervention, technology, and mechanisms relevant to clinical psychology and mental health."
+            description="Digital health and LLM-based interventions for anxiety, alongside dynamic risk modeling for depression, suicide, and NSSI."
           />
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5">
             {researchAreas.map((area) => (
-              <InfoCard key={area.title} title={area.title}>
-                <p>{area.description}</p>
-              </InfoCard>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="py-16 sm:py-20">
-        <Container>
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <SectionHeader
-              title="News"
-              description="Selected updates from TCP Lab."
-              className="mb-0"
-            />
-            <Link
-              href="/outreach/"
-              className="text-sm font-semibold text-[#4A6FA5] transition hover:text-[#2F4F78]"
-            >
-              View outreach
-            </Link>
-          </div>
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
-            {news.map((item) => (
-              <article
-                key={item.title}
-                className="rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5"
+              <InfoCard
+                key={area.title}
+                title={area.title}
+                titleClassName="text-center text-xl font-bold"
               >
-                <time className="text-sm font-medium text-[#4A6FA5]" dateTime={item.date}>
-                  {item.date}
-                </time>
-                <h3 className="mt-3 text-lg font-semibold text-[#1F2937]">
-                  {item.title}
-                </h3>
-                <p className="mt-3 text-sm leading-6 text-[#5F6F82]">{item.summary}</p>
-              </article>
+                <div className="space-y-4">
+                  <p>{area.introduction}</p>
+                  <p>{area.whatWeDo}</p>
+                </div>
+              </InfoCard>
             ))}
           </div>
         </Container>
@@ -141,11 +113,11 @@ export default function Home() {
             />
             <div className="grid gap-4 sm:grid-cols-2">
               <InfoCard title="Affiliation">
-                <p>Department of Psychology</p>
+                <p>Department of Psychological and Cognitive Sciences</p>
                 <p>Tsinghua University</p>
               </InfoCard>
               <InfoCard title="Contact Details">
-                <p>Email: tcp-lab@example.edu</p>
+                <p>Email: wmu@mail.tsinghua.edu.cn</p>
                 <p>Address: Address placeholder, Tsinghua University</p>
               </InfoCard>
             </div>

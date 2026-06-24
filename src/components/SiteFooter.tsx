@@ -19,8 +19,8 @@ export function SiteFooter() {
               Tsinghua Clinical Psychology Lab
             </p>
             <p className="mt-3 max-w-md text-sm leading-6 text-[#5F6F82]">
-              Department of Psychology, Tsinghua University. Advancing clinical
-              psychology research and mental health science.
+              Department of Psychological and Cognitive Sciences, Tsinghua University.
+              Advancing clinical psychology research and mental health science.
             </p>
           </div>
           <div>
@@ -40,11 +40,11 @@ export function SiteFooter() {
           <div>
             <p className="text-sm font-semibold text-[#1F2937]">Contact</p>
             <address className="mt-3 not-italic text-sm leading-6 text-[#5F6F82]">
-              Department of Psychology
+              Department of Psychological and Cognitive Sciences
               <br />
               Tsinghua University
               <br />
-              Email: tcp-lab@example.edu
+              Email: wmu@mail.tsinghua.edu.cn
             </address>
           </div>
         </div>

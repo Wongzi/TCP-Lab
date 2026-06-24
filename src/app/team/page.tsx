@@ -70,7 +70,7 @@ export default function TeamPage() {
                   className="font-semibold text-[#4A6FA5] transition hover:text-[#2F4F78]"
                   href={principalInvestigator.cvUrl}
                 >
-                  CV link placeholder
+                  Tsinghua Profile
                 </a>
               </div>
             </div>

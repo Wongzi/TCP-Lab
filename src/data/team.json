@@ -1,17 +1,17 @@
 {
   "principalInvestigator": {
-    "name": "Professor XXX",
-    "title": "Principal Investigator",
+    "name": "Wenting Mu",
+    "title": "Associate Professor, Doctoral Supervisor",
     "photoLabel": "PI Photo Placeholder",
-    "biography": "Professor XXX leads the Tsinghua Clinical Psychology Lab. Their research focuses on clinical psychology, mental health, and evidence-based psychological interventions.",
+    "biography": "Dr. Wenting Mu is an Associate Professor and Doctoral Supervisor in the Department of Psychological and Cognitive Sciences at Tsinghua University. She received her Ph.D. in Clinical Psychology from the University of Illinois Urbana-Champaign and worked as a clinical psychologist and postdoctoral researcher in the Department of Psychiatry at the Perelman School of Medicine, University of Pennsylvania, where she was mentored by Professor Edna Foa, a leading scholar in anxiety disorders. Dr. Mu has provided nearly 10,000 hours of clinical consultation and holds professional credentials including Licensed Clinical Psychologist in the United States, Registered Psychologist of the Chinese Psychological Society, and Registered Supervisor. She serves on the Clinical and Counseling Psychology Committee of the Chinese Psychological Society, the Mental Health Committee of the Chinese Association of Social Psychology, and the Evidence-Based Psychological Practice Working Group of the Clinical and Counseling Psychology Committee of the Chinese Psychological Society. Dr. Mu has published more than 20 SCI/SSCI papers in leading and well-recognized journals including Psychological Medicine, Cognitive Behaviour Therapy, and Addictive Behaviors. She has led research projects funded by the National Natural Science Foundation of China, the U.S. National Institute of Mental Health, Tsinghua University liberal arts research programs, and Tsinghua University teaching reform initiatives. Her research focuses on dynamic clinical risk prediction models for depression, suicide, and non-suicidal self-injury, as well as digital health and large language model based interventions for anxiety disorders.",
     "researchInterests": [
-      "Clinical psychology",
-      "Mental health",
-      "Evidence-based interventions",
-      "Psychological assessment"
+      "Dynamic clinical risk prediction",
+      "Depression, suicide, and NSSI",
+      "Digital mental health",
+      "LLM-based anxiety interventions"
     ],
-    "email": "professor.xxx@example.edu",
-    "cvUrl": "#"
+    "email": "wmu@mail.tsinghua.edu.cn",
+    "cvUrl": "https://www.psych.tsinghua.edu.cn/info/1180/1679.htm"
   },
   "graduateCandidates": [
     {

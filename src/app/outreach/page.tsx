@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/Container";
-import { InfoCard } from "@/components/InfoCard";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { SectionHeader } from "@/components/SectionHeader";
 import outreach from "@/data/outreach.json";
@@ -86,34 +85,6 @@ export default function OutreachPage() {
         </Container>
       </section>
 
-      <section className="py-16 sm:py-20">
-        <Container>
-          <SectionHeader
-            title="Public Engagement"
-            description="TCP Lab develops public-facing educational activities that connect psychological science with mental health needs."
-          />
-          <div className="grid gap-5 md:grid-cols-3">
-            <InfoCard title="Science Communication">
-              <p>
-                We share accessible explanations of clinical psychology,
-                assessment, intervention, and mental health science.
-              </p>
-            </InfoCard>
-            <InfoCard title="Educational Events">
-              <p>
-                The lab supports lectures, workshops, and campus activities that
-                promote mental health literacy.
-              </p>
-            </InfoCard>
-            <InfoCard title="Community Collaboration">
-              <p>
-                Outreach activities aim to strengthen dialogue between researchers,
-                students, clinicians, and the public.
-              </p>
-            </InfoCard>
-          </div>
-        </Container>
-      </section>
     </>
   );
 }

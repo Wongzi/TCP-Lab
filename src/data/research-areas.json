@@ -1,26 +1,12 @@
 [
   {
-    "title": "Clinical Psychology",
-    "description": "Research on psychological difficulties, clinical assessment, diagnosis, and intervention in diverse populations."
+    "title": "Innovative Interventions for Anxiety Based on Digital Health & LLM",
+    "introduction": "Anxiety is one of the most common psychological disorders and significantly impacts productivity both in China and worldwide. Effective interventions for anxiety are not yet widely implemented. Increasing their accessibility has been identified as an urgent priority by scholars in clinical psychology and public health. Leveraging digital technologies, such as smartphones and websites, has created an opportunity to enhance the accessibility of psychological interventions and extend their reach beyond the consultation room.",
+    "whatWeDo": "Dr. Wenting Mu's team has developed a WeChat program aimed at researching its efficacy in alleviating academic anxiety. Moreover, our research team uses cognitive-behavioral therapy and exposure therapy as foundations to train large language models for personalized, evidence-based interventions for anxiety disorders. These interventions are grounded in psychological theories and incorporate cutting-edge technologies to create personalized treatment methods. Our goal is to validate the effectiveness and safety of these interventions, offering an innovative and reliable treatment option for individuals with anxiety."
   },
   {
-    "title": "Mental Health",
-    "description": "Studies on mental health risk, resilience, prevention, and wellbeing across developmental and social contexts."
-  },
-  {
-    "title": "Psychological Assessment",
-    "description": "Development and validation of reliable assessment tools for symptoms, functioning, and treatment outcomes."
-  },
-  {
-    "title": "Psychotherapy",
-    "description": "Evidence-based intervention research focused on mechanisms, process, effectiveness, and clinical implementation."
-  },
-  {
-    "title": "Digital Mental Health",
-    "description": "Use of digital tools, online programs, and data-informed methods to expand access to psychological support."
-  },
-  {
-    "title": "Cognitive and Emotional Processes",
-    "description": "Investigation of cognitive, affective, and interpersonal processes relevant to mental health and treatment."
+    "title": "Dynamic Risk Modeling",
+    "introduction": "Adolescent depression and suicide/non-suicidal self-injury (NSSI) are major public health issues that are increasingly prevalent among teenagers in China as the pace of society accelerates. The incidence and lifetime prevalence of these issues are rising annually, placing a heavy burden on society and countless families.",
+    "whatWeDo": "Previous academic research on depression and suicide/NSSI prediction has mostly been cross-sectional, with limited capacity for causal inference. Additionally, most predictive research assumes that risk factors are static and unchanging, despite substantial evidence indicating that both risk factors and illness trajectories are highly variable. To unravel the dynamic nature of risk factors and illness trajectories, Dr. Wenting Mu's team is conducting an in-depth exploration using longitudinal multi-point tracking data and methods such as hierarchical regression, logistic regression, machine learning, time-varying covariate survival analysis, and latent variable growth models."
   }
 ]

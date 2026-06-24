@@ -31,7 +31,7 @@ export function SiteHeader() {
           >
             <span className="truncate text-sm font-bold sm:text-base">TCP Lab</span>
             <span className="hidden text-xs text-[#5F6F82] sm:block">
-              Department of Psychology, Tsinghua University
+              Department of Psychological and Cognitive Sciences, Tsinghua University
             </span>
           </Link>
 
