@@ -5,6 +5,7 @@ import { Container } from "@/components/Container";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { SectionHeader } from "@/components/SectionHeader";
 import outreach from "@/data/outreach.json";
+import { publicPath } from "@/utils/publicPath";
 
 type OutreachArticle = {
   title: string;
@@ -20,8 +21,8 @@ function getExistingPublicImage(src?: string) {
     return undefined;
   }
 
-  const publicPath = join(process.cwd(), "public", src.replace(/^\//, ""));
-  return existsSync(publicPath) ? src : undefined;
+  const imagePath = join(process.cwd(), "public", src.replace(/^\//, ""));
+  return existsSync(imagePath) ? publicPath(src, 1) : undefined;
 }
 
 export const metadata: Metadata = {
@@ -47,7 +48,7 @@ export default function OutreachPage() {
           <div className="grid gap-8 rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5 lg:grid-cols-[300px_1fr] lg:p-8">
             <PlaceholderImage
               label={outreach.wechat.qrLabel}
-              src="/images/qr-code.jpg"
+              src={publicPath("/images/qr-code.jpg", 1)}
               aspect="qr"
               className="mx-auto"
             />
