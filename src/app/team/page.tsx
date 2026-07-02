@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { Container } from "@/components/Container";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { ProfileCard } from "@/components/ProfileCard";
@@ -11,8 +13,23 @@ export const metadata: Metadata = {
     "Meet the principal investigator, graduate candidates, and alumni of Tsinghua Clinical Psychology Lab.",
 };
 
+const profileImageExtensions = ["jpg", "jpeg", "png", "webp"];
+
+function getProfileImageSrc(directory: "students" | "alumni", name: string) {
+  for (const extension of profileImageExtensions) {
+    const src = `/images/${directory}/${name}.${extension}`;
+    const publicPath = join(process.cwd(), "public", src.replace(/^\//, ""));
+
+    if (existsSync(publicPath)) {
+      return src;
+    }
+  }
+
+  return undefined;
+}
+
 export default function TeamPage() {
-  const { principalInvestigator, graduateCandidates, alumni } = team;
+  const { principalInvestigator, graduateCandidates } = team;
 
   return (
     <>
@@ -31,7 +48,8 @@ export default function TeamPage() {
           <article className="grid gap-8 rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5 lg:grid-cols-[320px_1fr] lg:p-8">
             <PlaceholderImage
               label={principalInvestigator.photoLabel}
-              aspect="portrait"
+              src={principalInvestigator.photoSrc}
+              aspect="photo"
               className="max-w-sm"
             />
             <div>
@@ -89,24 +107,7 @@ export default function TeamPage() {
                 position={member.position}
                 bio={member.bio}
                 photoLabel={member.photoLabel}
-              />
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="py-16 sm:py-20">
-        <Container>
-          <SectionHeader title="Alumni" />
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {alumni.map((member) => (
-              <ProfileCard
-                key={member.name}
-                name={member.name}
-                position={member.currentAffiliation}
-                meta={`Graduation year: ${member.graduationYear}`}
-                bio={member.description}
-                photoLabel={member.photoLabel}
+                photoSrc={getProfileImageSrc("students", member.name)}
               />
             ))}
           </div>

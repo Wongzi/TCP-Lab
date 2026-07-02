@@ -2,7 +2,8 @@
   "principalInvestigator": {
     "name": "Wenting Mu",
     "title": "Associate Professor, Doctoral Supervisor",
-    "photoLabel": "PI Photo Placeholder",
+    "photoLabel": "Portrait of Wenting Mu",
+    "photoSrc": "/images/pi-wenting-mu.jpg",
     "biography": "Dr. Wenting Mu is an Associate Professor and Doctoral Supervisor in the Department of Psychological and Cognitive Sciences at Tsinghua University. She received her Ph.D. in Clinical Psychology from the University of Illinois Urbana-Champaign and worked as a clinical psychologist and postdoctoral researcher in the Department of Psychiatry at the Perelman School of Medicine, University of Pennsylvania, where she was mentored by Professor Edna Foa, a leading scholar in anxiety disorders. Dr. Mu has provided nearly 10,000 hours of clinical consultation and holds professional credentials including Licensed Clinical Psychologist in the United States, Registered Psychologist of the Chinese Psychological Society, and Registered Supervisor. She serves on the Clinical and Counseling Psychology Committee of the Chinese Psychological Society, the Mental Health Committee of the Chinese Association of Social Psychology, and the Evidence-Based Psychological Practice Working Group of the Clinical and Counseling Psychology Committee of the Chinese Psychological Society. Dr. Mu has published more than 20 SCI/SSCI papers in leading and well-recognized journals including Psychological Medicine, Cognitive Behaviour Therapy, and Addictive Behaviors. She has led research projects funded by the National Natural Science Foundation of China, the U.S. National Institute of Mental Health, Tsinghua University liberal arts research programs, and Tsinghua University teaching reform initiatives. Her research focuses on dynamic clinical risk prediction models for depression, suicide, and non-suicidal self-injury, as well as digital health and large language model based interventions for anxiety disorders.",
     "researchInterests": [
       "Dynamic clinical risk prediction",
@@ -11,32 +12,57 @@
       "LLM-based anxiety interventions"
     ],
     "email": "wmu@mail.tsinghua.edu.cn",
-    "cvUrl": "https://www.psych.tsinghua.edu.cn/info/1180/1679.htm"
+    "cvUrl": "https://www.pcs.tsinghua.edu.cn/xlxen/info/1009/1354.htm"
   },
   "graduateCandidates": [
     {
-      "name": "Graduate Student A",
-      "position": "PhD Candidate",
-      "photoLabel": "Graduate Student Photo Placeholder",
-      "bio": "Graduate Student A studies clinical assessment, symptom trajectories, and intervention outcomes."
-    },
-    {
-      "name": "Graduate Student B",
+      "name": "Yanwen Yu",
       "position": "PhD Student",
-      "photoLabel": "Graduate Student Photo Placeholder",
-      "bio": "Graduate Student B focuses on digital mental health tools and scalable psychological interventions."
+      "photoLabel": "Portrait of Yanwen Yu",
+      "bio": "Yanwen's research interests lie in understanding anxiety- and depression-related problems and developing digital interventions for mental health. She is currently investigating how large language models can be used to support evidence-based psychological interventions, such as exposure therapy."
     },
     {
-      "name": "Graduate Student C",
-      "position": "Master's Student",
-      "photoLabel": "Graduate Student Photo Placeholder",
-      "bio": "Graduate Student C investigates cognitive and emotional processes related to mental health."
+      "name": "Yanling Yue",
+      "position": "PhD Student",
+      "photoLabel": "Portrait of Yanling Yue",
+      "bio": "Yanling's research focuses on the application of generative artificial intelligence in psychological interventions for anxiety, with an emphasis on evaluating its safety, effectiveness, acceptability, and therapeutic mechanisms. I also examine risk factors associated with anxiety, depression, and self-injurious and suicidal thoughts and behaviors."
     },
     {
-      "name": "Graduate Student D",
+      "name": "Chuncheng Huang",
+      "position": "PhD Student",
+      "photoLabel": "Portrait of Chuncheng Huang",
+      "bio": "Chuncheng's research interests include dynamic prediction of depression and suicide risk, as well as GenAI-augmented digital evidence-based interventions for anxiety."
+    },
+    {
+      "name": "Junyao Liu",
       "position": "Master's Student",
-      "photoLabel": "Graduate Student Photo Placeholder",
-      "bio": "Graduate Student D is interested in psychotherapy process research and public mental health."
+      "photoLabel": "Portrait of Junyao Liu",
+      "bio": "Junyao's current research interests focus on digital interventions for anxiety and promoting user engagement."
+    },
+    {
+      "name": "Zimao Wang",
+      "position": "PhD Student",
+      "photoLabel": "Portrait of Zimao Wang",
+      "bio": "Zimao's research focuses on the development of dynamic risk models for depression, with a particular emphasis on understanding how psychosocial factors and passive sensing data contribute to depression risk prediction and interact dynamically over time."
+    },
+    {
+      "name": "Yinan Zhou",
+      "position": "PhD Student",
+      "photoLabel": "Portrait of Yinan Zhou",
+      "bio": "Yinan's research interests include the use of passive sensing data to predict anxiety, depression, and suicide risk, as well as the mechanisms underlying exposure therapy."
+    },
+    {
+      "name": "Yixin Huang",
+      "position": "PhD Student",
+      "photoLabel": "Portrait of Yixin Huang",
+      "bio": "Yixin's research interests lie broadly in clinical psychology, encompassing psychopathology, intervention science, and the practical application of research to improve mental health care."
+    }
+    ,
+    {
+      "name": "Yue Guo",
+      "position": "Master's Student",
+      "photoLabel": "Portrait of Yue Guo",
+      "bio": "Yue Guo's research interests include dynamic risk prediction for depression and mental health issues among people living with HIV."
     }
   ],
   "alumni": [

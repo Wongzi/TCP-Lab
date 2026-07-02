@@ -1,45 +1,45 @@
 {
   "wechat": {
-    "accountName": "TCP Lab WeChat Official Account",
-    "description": "Follow our WeChat Official Account for updates on mental health science, psychology education, and laboratory news.",
-    "qrLabel": "WeChat QR Code Placeholder"
+    "accountName": "夏木心理实验室",
+    "description": "Follow 夏木心理实验室 on WeChat for updates on mental health science, psychology education, and laboratory news.",
+    "qrLabel": "夏木心理实验室 WeChat QR Code"
   },
   "articles": [
     {
-      "title": "Understanding stress in daily life",
-      "summary": "A public-facing introduction to stress, coping, and when to seek psychological support.",
-      "date": "2026-05-20",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Back-to-Work Anxiety After the Holidays: How Common Is This Aftereffect?",
+      "url": "https://mp.weixin.qq.com/s/EYPELjSnhFUQOE3bnekcDw",
+      "coverLabel": "Back-to-work anxiety article cover",
+      "coverSrc": "/images/outreach/ack-to-work-anxiety.jpg"
     },
     {
-      "title": "What is evidence-based psychotherapy?",
-      "summary": "An accessible overview of how psychological interventions are evaluated and improved.",
-      "date": "2026-04-28",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Why Psychological Interventions Need to Be Evidence-Based: The Scientific Revolution in Clinical Psychology",
+      "url": "https://mp.weixin.qq.com/s/KaXaqRaET-I3umSfSbkG8Q",
+      "coverLabel": "Evidence-based psychological intervention article cover",
+      "coverSrc": "/images/outreach/evidence-based-intervention.jpg"
     },
     {
-      "title": "Mental health literacy for students",
-      "summary": "Practical guidance on recognizing common mental health concerns and finding resources.",
-      "date": "2026-03-16",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Has Artificial Intelligence Learned Empathy? Emotional Boundaries Between Humans and Large Language Models",
+      "url": "https://mp.weixin.qq.com/s/vWUeLfH2wpUMtQo-ihr-ag",
+      "coverLabel": "AI empathy article cover",
+      "coverSrc": "/images/outreach/ai-empathy.png"
     },
     {
-      "title": "How psychological assessment works",
-      "summary": "A brief explanation of interviews, scales, observation, and responsible interpretation.",
-      "date": "2026-02-10",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Medication or Psychotherapy? What the Scientific Evidence Says, Part II: OCD, Depression, and PTSD",
+      "url": "https://mp.weixin.qq.com/s/thxnHKfol1hVPmRCgh7-VA",
+      "coverLabel": "Medication or psychotherapy part two article cover",
+      "coverSrc": "/images/outreach/medication-psychotherapy-part-2.jpg"
     },
     {
-      "title": "Sleep, mood, and cognition",
-      "summary": "A science communication article on the relationship between sleep habits and mental health.",
-      "date": "2026-01-22",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Medication or Psychotherapy? What the Scientific Evidence Says: Anxiety",
+      "url": "https://mp.weixin.qq.com/s/ZsthFh7ZL-oHbUd2cIFNZQ",
+      "coverLabel": "Medication or psychotherapy anxiety article cover",
+      "coverSrc": "/images/outreach/edication-psychotherapy-anxiety.jpg"
     },
     {
-      "title": "Supporting friends in distress",
-      "summary": "Evidence-informed suggestions for listening, responding, and encouraging professional help.",
-      "date": "2025-12-05",
-      "coverLabel": "Article Cover Placeholder"
+      "title": "Facing Anxiety Scientifically: The Efficacy and Application of Exposure Therapy",
+      "url": "https://mp.weixin.qq.com/s/be3YNga-kKPeV-OlCT3x7w",
+      "coverLabel": "Exposure therapy for anxiety article cover",
+      "coverSrc": "/images/outreach/exposure-therapy-anxiety.jpg"
     }
   ]
 }

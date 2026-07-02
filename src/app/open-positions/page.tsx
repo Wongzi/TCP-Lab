@@ -25,13 +25,13 @@ export default function OpenPositionsPage() {
               psychology, mental health, and related fields.
             </p>
             <div className="mt-8">
-              <ButtonLink href="mailto:tcp-lab@example.edu">Apply Now</ButtonLink>
+              <ButtonLink href="mailto:wmu@mail.tsinghua.edu.cn">Apply Now</ButtonLink>
             </div>
           </div>
           <div className="rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5">
             <p className="text-sm font-semibold text-[#4A6FA5]">Application email</p>
             <p className="mt-2 text-lg font-semibold text-[#1F2937]">
-              tcp-lab@example.edu
+              wmu@mail.tsinghua.edu.cn
             </p>
             <p className="mt-4 text-sm leading-6 text-[#5F6F82]">
               Please include your intended role in the subject line and attach the
@@ -78,7 +78,9 @@ export default function OpenPositionsPage() {
                 or further discussion with the lab.
               </p>
               <div className="mt-6">
-                <ButtonLink href="mailto:tcp-lab@example.edu">Apply Now</ButtonLink>
+                <ButtonLink href="mailto:wmu@mail.tsinghua.edu.cn">
+                  Apply Now
+                </ButtonLink>
               </div>
             </div>
           </div>

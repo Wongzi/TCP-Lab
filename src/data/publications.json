@@ -1,62 +1,188 @@
 [
   {
     "year": 2026,
-    "authors": "Author, A., Author, B.",
-    "title": "Digital tools for improving access to evidence-based mental health care",
-    "journal": "Journal of Clinical Psychology Research"
+    "authors": "Liu, J., Yao, N., Perlman, G., Klein, D. N., Kotov, R., & Mu, W.*",
+    "title": "Prospective Prediction of First-Onset Generalized and Social Anxiety Disorders in Adolescent Girls",
+    "journal": "Journal of Anxiety Disorders, 103153"
   },
   {
     "year": 2026,
-    "authors": "Author, C., Author, D., Author, E.",
-    "title": "Assessment of cognitive and emotional processes in clinical populations",
-    "journal": "Clinical Psychology and Mental Health"
+    "authors": "Gong, B., Yao, N., Xie, H., Huang, C., Tomoko, K., Berenbaum, H., & Mu, W.*",
+    "title": "Efficacy, User Engagement, and Acceptability of CBT-oriented Psychological Chatbots for Adults With Depressive and/or Anxiety Symptoms: Systematic Review and Meta-analysis of Randomized Controlled Trials",
+    "journal": "Journal of Medical Internet Research"
+  },
+  {
+    "year": 2026,
+    "authors": "Gao, X., Pu, J., Zhao, X., Zhao, Y., Mu, W., Lui, S. S., ... & Chan, R. C.",
+    "title": "Reward Motivation Adaptation Deficits Are Specific to Co-Occurring Subclinical Depression and Anhedonia",
+    "journal": "Behavioral Sciences, 16(3), 464"
+  },
+  {
+    "year": 2026,
+    "authors": "Mu, W.*, Zhang, B., Kishimoto, T.*, Fan, K., He, Z., & Berenbaum, H.",
+    "title": "What is common may be as important as what is different: Examining the general factor shared by dispositional shame and guilt using bi-factor models",
+    "journal": "European Journal of Personality, 40(2), 309-330"
   },
   {
     "year": 2025,
-    "authors": "Author, F., Author, A.",
-    "title": "Psychological assessment and treatment outcomes in young adults",
-    "journal": "Assessment in Psychology"
+    "authors": "Huang, C., Zhou, Y., Yue, Y., Yu, Y., Wang, Z., Huang, C., ... & Mu, W.*",
+    "title": "Predicting first onset of suicide attempt among children with suicidal ideation or non-suicidal self-injury using machine learning: a prospective population-based cohort study",
+    "journal": "American Journal of Epidemiology, kwaf242"
   },
   {
     "year": 2025,
-    "authors": "Author, G., Author, H.",
-    "title": "Mechanisms of change in evidence-based psychotherapy",
-    "journal": "Psychotherapy Science"
+    "authors": "Huang, C., Yue, Y., Wang, Z., Liu, Y. J., Yao, N.*, & Mu, W.*",
+    "title": "Prediction of first attempt of suicide in early adolescence using machine learning",
+    "journal": "Journal of Affective Disorders, 382, 1-9"
+  },
+  {
+    "year": 2025,
+    "authors": "Yue, Y., Tyler, J., Zhu, Y., Bredemeier, K., Yao, N.*, & Mu, W.*",
+    "title": "Generality or specificity? Examining the mechanism of the transdiagnostic associations between different aspects of emotion dysregulation and various anxiety-related disorders",
+    "journal": "British Journal of Clinical Psychology, 64(4), 905-921"
+  },
+  {
+    "year": 2025,
+    "authors": "Liu, Y.*, Yang, X., Du Xinxin, J. I., Zang, Y., Guan, R., Song, S., ... & Mu, W.*",
+    "title": "Neurophysiological mechanisms and interventions of subthreshold depression by using machine learning techniques",
+    "journal": "Advances in Psychological Science, 33(6), 887. (in Chinese)"
+  },
+  {
+    "year": 2025,
+    "authors": "Yu, Y., Schoenleber, M., Huang, C., Yue, Y., Wang, Z., Yao, N.*, & Mu, W.*",
+    "title": "Prospective Prediction of the Initiation of Non-Suicidal Self-Injury in Adolescents With and Without Depressive Disorders: A US Population-Based Study",
+    "journal": "Journal of Psychiatric Research"
+  },
+  {
+    "year": 2025,
+    "authors": "Liu, N., Liu, F., Du, X., Shu, Y., Liu, X., Wang, L., ... & Liu, Y. J.",
+    "title": "Temporal-noise-aware neural networks for suicidal ideation prediction using physiological data",
+    "journal": "IEEE Transactions on Computational Social Systems, 12(5), 2973-2985"
+  },
+  {
+    "year": 2025,
+    "authors": "Chen, D., Yang, X., Liang, Y., Huang, C., Zhang, S., Li, Y., ... & Ma, L.",
+    "title": "A free association semantic task for fNIRS-based perinatal depression assessment",
+    "journal": "Frontiers in Neurology, 15, 1491923"
   },
   {
     "year": 2024,
-    "authors": "Author, I., Author, J., Author, K.",
-    "title": "Mental health literacy and help-seeking among university students",
-    "journal": "Journal of Mental Health Education"
+    "authors": "Chirica, M. G.#, Zhu, Y.#, Mu, W.*, Zhou, H., Gong, J., Chan, R. C., ... & Berenbaum, H.",
+    "title": "Exploring phenotypic overlap across schizotypy and autism spectrum conditions in American and Chinese young adults",
+    "journal": "Schizophrenia Research, 267, 359-366"
   },
   {
     "year": 2024,
-    "authors": "Author, L., Author, M.",
-    "title": "Emotion regulation and psychological wellbeing in daily life",
-    "journal": "Affective Science Review"
-  },
-  {
-    "year": 2023,
-    "authors": "Author, N., Author, O.",
-    "title": "Validation of a brief clinical screening instrument",
-    "journal": "Psychological Assessment Reports"
-  },
-  {
-    "year": 2023,
-    "authors": "Author, P., Author, Q., Author, R.",
-    "title": "Risk and resilience factors in adolescent mental health",
-    "journal": "Developmental Clinical Psychology"
+    "authors": "Mu, W.*, Huang, C., Yao, N., Miao, J., Perlman, G., Watson, D., ... Kotov, R.",
+    "title": "Developmental pathway for first onset of depressive disorders in females: from adolescence to emerging adulthood",
+    "journal": "Psychological Medicine, 54(4), 753-762"
   },
   {
     "year": 2022,
-    "authors": "Author, S., Author, T.",
-    "title": "Community-based approaches to mental health promotion",
-    "journal": "Public Mental Health Journal"
+    "authors": "Zhu, Y.*, Mu, W.*, Chirica, M., Berenbaum, H.",
+    "title": "Testing a theory-driven factor structure of the autism-spectrum quotient",
+    "journal": "Autism Research"
+  },
+  {
+    "year": 2023,
+    "authors": "Mu, W.*, Li, K., Tian, Y., Perlman, G., Michelini, G., Watson, D., ... & Kotov, R.*",
+    "title": "Dynamic risk for first onset of depressive disorders in adolescence: does change matter?",
+    "journal": "Psychological Medicine, 1-9"
   },
   {
     "year": 2022,
-    "authors": "Author, U., Author, V.",
-    "title": "Cognitive vulnerability and emotional symptoms in clinical assessment",
-    "journal": "Clinical Science in Psychology"
+    "authors": "Bredemeier, K., Mu, W., Mayinja, L., & Brown, L. A.",
+    "title": "Emotional clarity and awareness predict obsessive-compulsive disorder symptoms during exposure and response prevention in a naturalistic treatment sample",
+    "journal": "Journal of Behavioral and Cognitive Therapy, 32(4), 262-270"
+  },
+  {
+    "year": 2022,
+    "authors": "Brown, L. A.*, Narine, K., Asnaani, A., Bredemeier, K., & Mu, W.",
+    "title": "Affect, physical activity, physical health, and sleep in cognitive behavioral therapy for anxiety: A pilot study",
+    "journal": "Journal of Behavioral and Cognitive Therapy"
+  },
+  {
+    "year": 2021,
+    "authors": "Kaczkurkin, A. N.*, Mu, W., Gallagher, T., Lieblich, S., Tyler, J., & Foa, E. B.",
+    "title": "The association of obsessive-compulsive disorder, anxiety disorders, and posttraumatic stress disorder with impairment related to eating pathology",
+    "journal": "Journal of Obsessive-Compulsive and Related Disorders, 31, 100685"
+  },
+  {
+    "year": 2021,
+    "authors": "Brown, L. A.*, Majeed, I., Mu, W., McCann, J., Durborow, S., Chen, S., & Blank, M. B.",
+    "title": "Suicide risk among persons living with HIV",
+    "journal": "AIDS Care, 1-7"
+  },
+  {
+    "year": 2021,
+    "authors": "Tyler, J.*, Mu, W.*, McCann, J., Belli, G., & Asnaani, A.",
+    "title": "The unique contribution of perfectionistic cognitions to anxiety disorder symptoms in a treatment-seeking sample",
+    "journal": "Cognitive Behavior Therapy, 1-17"
+  },
+  {
+    "year": 2020,
+    "authors": "Brown, L. A.*, Mu, W., McCann, J., Durborow, S., & Blank, M. B.",
+    "title": "Under-documentation of psychiatric diagnoses among persons living with HIV in electronic medical records",
+    "journal": "AIDS Care, 1-5"
+  },
+  {
+    "year": 2020,
+    "authors": "Mu, W.*, Narine, K., Farris, S., Lieblich, S., Zang, Y., Bredemeier, K., ... & Foa, E.",
+    "title": "Trauma-related cognitions predict treatment response in smokers with PTSD: evidence from cross-lagged panel analyses",
+    "journal": "Addictive Behaviors, 108, 106376"
+  },
+  {
+    "year": 2020,
+    "authors": "Brown, L. A.*, Benhamou, K., May, A. M., Mu, W., & Berk, R.",
+    "title": "Machine learning algorithms in suicide prevention: clinician interpretations as barriers to implementation",
+    "journal": "Journal of Clinical Psychiatry, 81(3), e12970-e12970"
+  },
+  {
+    "year": 2020,
+    "authors": "Wang, H., Zhao, Q., Mu, W., Qian, M.*, & Berger, T.",
+    "title": "Internet-based cognitive behavior therapy for Chinese social anxiety: the role of shame-proneness",
+    "journal": "Journal of Medical Internet Research: Mental Health"
+  },
+  {
+    "year": 2019,
+    "authors": "Mu, W.*, Luo, J., Rieger, S., Trautwein, U., & Roberts, B.",
+    "title": "The relationship between self-esteem and depression when controlling for neuroticism",
+    "journal": "Collabra: Psychology, 5(1), 11"
+  },
+  {
+    "year": 2019,
+    "authors": "Mu, W.* & Berenbaum, H.",
+    "title": "Negative self-conscious emotions: appraisals, action tendencies, and labels",
+    "journal": "Journal of Social and Clinical Psychology, 38(2), 113-S7"
+  },
+  {
+    "year": 2019,
+    "authors": "Mu, W.*, Schoenleber, M., Castro, A. & Berenbaum, H.",
+    "title": "Automatic body image regulation and cued activation of social rejection or acceptance",
+    "journal": "Journal of Social and Clinical Psychology, 38(5), 393-406"
+  },
+  {
+    "year": 2017,
+    "authors": "Levallius, J., Mu, W., Norring, C., Clinton, D., & Roberts, B.",
+    "title": "Some stay the same: Personality change after treatment for eating disorder",
+    "journal": "European Psychiatry, 41, S555"
+  },
+  {
+    "year": 2016,
+    "authors": "Mu, W.*, Luo, J., Nickel, L., & Roberts, B. W.",
+    "title": "Generality or specificity? Examining the relation between personality traits and mental health outcomes using a bivariate bi-factor latent change model",
+    "journal": "European Journal of Personality, 30(5), 467-483"
+  },
+  {
+    "year": 2013,
+    "authors": "Manjrekar, E.*, Schoenleber, M., & Mu, W.",
+    "title": "Shame aversion and maladaptive eating-related attitudes and behaviors",
+    "journal": "Eating Behaviors, 14(4), 456-459"
+  },
+  {
+    "year": 2010,
+    "authors": "Li, S., Mu, W., Xu, K., Wang, Y., & Qian, M.*",
+    "title": "Post-traumatic stress disorder and depression symptoms among Wen-chuan Earthquake survivors from different communities three months after the disaster",
+    "journal": "Chinese Mental Health Journal, 24(9), 652-656. (in Chinese)"
   }
 ]

@@ -1,8 +1,28 @@
 import type { Metadata } from "next";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { Container } from "@/components/Container";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { SectionHeader } from "@/components/SectionHeader";
 import outreach from "@/data/outreach.json";
+
+type OutreachArticle = {
+  title: string;
+  summary?: string;
+  date?: string;
+  url?: string;
+  coverLabel: string;
+  coverSrc?: string;
+};
+
+function getExistingPublicImage(src?: string) {
+  if (!src) {
+    return undefined;
+  }
+
+  const publicPath = join(process.cwd(), "public", src.replace(/^\//, ""));
+  return existsSync(publicPath) ? src : undefined;
+}
 
 export const metadata: Metadata = {
   title: "Outreach",
@@ -27,6 +47,7 @@ export default function OutreachPage() {
           <div className="grid gap-8 rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5 lg:grid-cols-[300px_1fr] lg:p-8">
             <PlaceholderImage
               label={outreach.wechat.qrLabel}
+              src="/images/qr-code.jpg"
               aspect="qr"
               className="mx-auto"
             />
@@ -55,29 +76,55 @@ export default function OutreachPage() {
             description="Sample article previews for mental health science, psychology education, and laboratory news."
           />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {outreach.articles.map((article) => (
+            {(outreach.articles as OutreachArticle[]).map((article) => (
               <article
                 key={article.title}
                 className="overflow-hidden rounded-lg border border-[#D8E4F0] bg-white shadow-sm shadow-[#4A6FA5]/5 transition duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-[#4A6FA5]/10"
               >
                 <PlaceholderImage
                   label={article.coverLabel}
+                  src={getExistingPublicImage(article.coverSrc)}
                   aspect="wide"
                   className="rounded-none border-0"
                 />
                 <div className="p-5">
-                  <time
-                    className="text-sm font-medium text-[#4A6FA5]"
-                    dateTime={article.date}
-                  >
-                    {article.date}
-                  </time>
-                  <h2 className="mt-3 text-lg font-semibold text-[#1F2937]">
-                    {article.title}
+                  {article.date ? (
+                    <time
+                      className="text-sm font-medium text-[#4A6FA5]"
+                      dateTime={article.date}
+                    >
+                      {article.date}
+                    </time>
+                  ) : null}
+                  <h2 className={`${article.date ? "mt-3" : ""} text-lg font-semibold text-[#1F2937]`}>
+                    {article.url ? (
+                      <a
+                        href={article.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="transition hover:text-[#4A6FA5]"
+                      >
+                        {article.title}
+                      </a>
+                    ) : (
+                      article.title
+                    )}
                   </h2>
-                  <p className="mt-3 text-sm leading-6 text-[#5F6F82]">
-                    {article.summary}
-                  </p>
+                  {article.summary ? (
+                    <p className="mt-3 text-sm leading-6 text-[#5F6F82]">
+                      {article.summary}
+                    </p>
+                  ) : null}
+                  {article.url ? (
+                    <a
+                      href={article.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-4 inline-flex text-sm font-semibold text-[#4A6FA5] transition hover:text-[#2F4F78]"
+                    >
+                      Read on WeChat
+                    </a>
+                  ) : null}
                 </div>
               </article>
             ))}
