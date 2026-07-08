@@ -11,12 +11,12 @@ import { publicPath } from "@/utils/publicPath";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the principal investigator, graduate candidates, and alumni of Tsinghua Clinical Psychology Lab.",
+    "Meet the principal investigator and graduate students of Tsinghua Clinical Psychology Lab.",
 };
 
 const profileImageExtensions = ["jpg", "jpeg", "png", "webp"];
 
-function getProfileImageSrc(directory: "students" | "alumni", name: string) {
+function getProfileImageSrc(directory: "students", name: string) {
   for (const extension of profileImageExtensions) {
     const src = `/images/${directory}/${name}.${extension}`;
     const imagePath = join(process.cwd(), "public", src.replace(/^\//, ""));
@@ -38,7 +38,7 @@ export default function TeamPage() {
         <Container>
           <SectionHeader
             title="Team"
-            description="Meet the researchers, students, and alumni contributing to TCP Lab's work in clinical psychology and mental health science."
+            description="Meet the researchers and graduate students contributing to TCP Lab's work in clinical psychology and mental health science."
           />
         </Container>
       </section>

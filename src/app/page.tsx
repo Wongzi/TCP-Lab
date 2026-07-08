@@ -108,7 +108,7 @@ export default function Home() {
           <div className="grid gap-8 rounded-lg border border-[#D8E4F0] bg-white p-6 shadow-sm shadow-[#4A6FA5]/5 lg:grid-cols-[0.8fr_1.2fr] lg:p-8">
             <SectionHeader
               title="Contact"
-              description="For academic inquiries, collaboration, and recruitment questions, please contact the laboratory."
+              description="For academic inquiries and collaboration, please contact the laboratory."
               className="mb-0"
             />
             <div className="grid gap-4 sm:grid-cols-2">
@@ -118,7 +118,7 @@ export default function Home() {
               </InfoCard>
               <InfoCard title="Contact Details">
                 <p>Email: wmu@mail.tsinghua.edu.cn</p>
-                <p>Address: Address placeholder, Tsinghua University</p>
+                <p>Tsinghua University</p>
               </InfoCard>
             </div>
           </div>

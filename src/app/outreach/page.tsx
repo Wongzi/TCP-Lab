@@ -74,7 +74,7 @@ export default function OutreachPage() {
         <Container>
           <SectionHeader
             title="Popular Science Articles"
-            description="Sample article previews for mental health science, psychology education, and laboratory news."
+            description="Public-facing articles from 夏木心理实验室 on mental health science, evidence-based intervention, and psychology education."
           />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {(outreach.articles as OutreachArticle[]).map((article) => (

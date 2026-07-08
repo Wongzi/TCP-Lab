@@ -6,7 +6,7 @@ import publications from "@/data/publications.json";
 export const metadata: Metadata = {
   title: "Publications",
   description:
-    "Browse sample publications from Tsinghua Clinical Psychology Lab by year, title, author, and journal.",
+    "Selected publications from Tsinghua Clinical Psychology Lab in clinical psychology, mental health, and digital intervention research.",
 };
 
 export default function PublicationsPage() {
@@ -19,8 +19,9 @@ export default function PublicationsPage() {
               Publications
             </h1>
             <p className="mt-4 text-base leading-7 text-[#5F6F82]">
-              Search, filter, and sort publications from TCP Lab. The list is
-              managed from a JSON data file for straightforward updates.
+              Selected publications from TCP Lab spanning clinical psychology,
+              mental health, risk prediction, and evidence-based intervention
+              research.
             </p>
           </div>
         </Container>
