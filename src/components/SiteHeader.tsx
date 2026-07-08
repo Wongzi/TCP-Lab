@@ -10,7 +10,6 @@ const navigation = [
   { href: "/team/", label: "Team" },
   { href: "/publications/", label: "Publications" },
   { href: "/outreach/", label: "Outreach" },
-  { href: "/open-positions/", label: "Open Positions" },
 ];
 
 export function SiteHeader() {
